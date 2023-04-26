@@ -3,12 +3,163 @@
 @tailwind utilities;
 
 h5 {
-  margin-bottom: 1rem;
-  margin-top: 0;
+  margin-bottom: 0;
+  margin-top: 5px;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 
 li {
  margin:0.5rem;
+}
+
+header p {
+  font-size: 13px;
+}
+
+.logo img{
+width: 100%;
+}
+
+.submenu {
+  width: 35rem;
+}
+
+select {
+  border: none;
+  outline: none;
+}
+
+.submenu-mobile {
+  max-width: 30rem;
+  width: 100%;
+}
+
+.sub-item {
+  cursor: pointer;
+}
+
+.sub-item:hover h4, img{
+  transition: 0.1s;
+  color: #14a800;
+}
+
+.search-container img {
+  width: 18px!important;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.login p {
+  font-size: 15px!important;
+  font-weight: 600;
+}
+
+.signin p {
+  font-size: 15px!important;
+  font-weight: 600;
+  color: white;
+  align-items: center;
+}
+
+.signin-mobile p {
+  font-size: 15px!important;
+  font-weight: 600;
+  color: black;
+  align-items: center;
+}
+
+.signin {
+  display: flex;
+  align-items: center;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+::ms-input-placehodler {
+  color: black;
+}
+
+
+.search-container input {
+  border: none;
+  outline:none;
+}
+
+.toggle-logo {
+  width: 8px!important;
+}
+
+.navbar-ul li:hover {
+  transition: 0.1s;
+  color: #14a800;
+}
+
+.nav-title img {
+  width: 10px;
+}
+
+
+.hamburger div {
+  width: 40px;
+  height: 6px;
+  background-color: black;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+}
+
+.footer_icons {
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 0.5rem;
+}
+
+.footer_icons:hover {
+  background-color: rgba(255, 255, 255, 0.416);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+
+
+.display {
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+}
+
+.close {
+  display: none;
+  transition: 0.2s;
+}
+
+.show{
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+}
+
+.hide {
+  display: none;
+  transition: 0.2s;
+}
+
+.toggler {
+  font-weight: 800;
 }

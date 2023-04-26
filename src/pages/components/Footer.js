@@ -1,9 +1,20 @@
+import Image from "next/image"
+import Facebook from "../../../public/facebook-f.svg"
+import LinkedIn from "../../../public/linkedin-in.svg"
+import Twitter from "../../../public/twitter.svg"
+import Instagram from "../../../public/instagram.svg"
+import Youtube from "../../../public/youtube.svg"
+import Apple from "../../../public/apple.svg"
+import Android from "../../../public/android.svg"
+
+
+
 function Footer() {
     return (
-        <footer class="container mx-auto px-20 w-100 hidden md:block bg-green-950 rounded text-white text-sm py-16">
-        <div class="flex flex-col">
-          <div class="grid grid-cols-4 ">
-            <div class="">
+        <footer className="container mx-auto px-20 w-100 hidden md:block bg-green-950 rounded text-white text-sm py-16">
+        <div className="flex flex-col">
+          <div className="grid grid-cols-4 ">
+            <div className="border-b-2 border-white">
               <h5>For Clients</h5>
               <ul>
                 <li>
@@ -38,7 +49,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="footer_top_list">
+            <div className="footer_top_list">
               <h5>For Talent</h5>
               <ul>
                 <li>
@@ -56,7 +67,7 @@ function Footer() {
               </ul>
             </div>
   
-            <div class="footer_top_list">
+            <div className="footer_top_list">
               <h5>Resources</h5>
               <ul>
                 <li>
@@ -85,7 +96,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="footer_top_list">
+            <div className="footer_top_list">
               <h5>Company</h5>
               <ul>
                 <li>
@@ -118,43 +129,43 @@ function Footer() {
               </ul>
             </div>
           </div>
-          <div class="flex justify-between ">
-            <div class="footer_middle_left flex">
+          <div className="flex justify-between my-4">
+            <div className="footer_middle_left flex align-middle">
               <h5>Follow Us</h5>
-              <div class="flex justify-between">
-                <div class="footer_icons">
-                  <img src="./assets/facebook.svg" alt="facebook" />
+              <div className="flex justify-between">
+                <div className="footer_icons mx-2">
+                    <Image src={Facebook} alt="" className="icon"/>
                 </div>
-                <div class="footer_icons">
-                  <img src="./assets/linkedIn.svg" alt="linkedIn" />
+                <div className="footer_icons mx-2">
+                    <Image src={LinkedIn} alt="" className="icon"/>
                 </div>
-                <div class="footer_icons">
-                  <img src="./assets/twitter.svg" alt="twitter" />
+                <div className="footer_icons mx-2">
+                    <Image src={Twitter} alt="" className="icon"/>
                 </div>
-                <div class="footer_icons">
-                  <img src="./assets/youtube.svg" alt="youtube" />
+                <div className="footer_icons mx-2">
+                     <Image src={Youtube} alt="" className="icon"/>
                 </div>
-                <div class="footer_icons">
-                  <img src="./assets/instagram.svg" alt="instagram" />
+                <div className="footer_icons mx-2">
+                      <Image src={Instagram} alt="" className="icon"/>
                 </div>
               </div>
             </div>
-            <div class=" flex">
+            <div className=" flex">
               <h5>Mobile app</h5>
-              <div class="flex justify-between">
-                <div class="footer_icons">
-                  <img src="./assets/apple.svg" alt="apple" />
+              <div className="flex justify-between">
+                <div className="footer_icons mx-2">
+                   <Image src={Apple} alt="" className="icon"/>
                 </div>
-                <div class="footer_icons">
-                  <img src="./assets/android.svg" alt="android" />
+                <div className="footer_icons mx-2">
+                    <Image src={Android} alt="" className="icon"/>
                 </div>
               </div>
             </div>
           </div>
           <hr></hr>
-          <div class="flex text-xs">
+          <div className="flex text-xs">
             <p className="me-4 mt-2">© 2015 - 2022 Upwork® Global Inc.</p>
-            <ul class="flex justify-between flex-wrap">
+            <ul className="flex justify-between flex-wrap">
               <li>Terms of Service</li>
               <li>Privacy Policy</li>
               <li>CA Notice at Collection</li>
