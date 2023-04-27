@@ -17,6 +17,14 @@ header p {
   font-size: 13px;
 }
 
+header {
+  z-index: 999;
+}
+
+.mobile-search img {
+  width: 20px;
+}
+
 .logo img{
 width: 100%;
 }
@@ -162,4 +170,352 @@ select {
 
 .toggler {
   font-weight: 800;
+}
+
+
+
+/* sections */
+
+.section-1-text {
+    font-size: 50px;
+    font-weight: 700;
+    color: #14a800;
+}
+
+.section-1-text p {
+  font-size: 30px;
+  font-weight: 700;
+  color: #5e6d55;
+}
+
+.section-1-button {
+  background-color: #14a800;
+}
+
+.section-1-button p {
+  color: #fff;
+  font-size: 22px;
+}
+
+.section-2-heading {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.section-2 img {
+  width: 20px;
+  padding-top: 0.25rem;
+}
+
+.section-2-header {
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+.section-2-text {
+font-size: 15px;
+}
+
+.section-2-button {
+  font-size: 15px;
+  margin: 0.25rem;
+}
+
+.first-button {
+  background-color: #14a800;
+  color: #fff;
+  outline: none;
+}
+
+.second-button {
+  background-color: #fff;
+  color: #14a800;
+  outline: none;
+  border: 2px solid #14a800;
+}
+
+.section-3-heading {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-3-heading p {
+  font-size: 20px;
+  color:#555555;
+  font-weight: 500;
+}
+
+.section-3-heading a {
+  color: #14a800;
+  text-decoration: underline;
+}
+
+.section-3-element {
+  cursor: pointer;
+}
+
+.section-3-element:hover {
+  background-color: #b4b4b4;
+  transition: 0.1s;
+}
+
+.section-3-header {
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+.section-3-text {
+font-size: 15px;
+padding-top: 0.2rem;
+color:#555555;
+font-weight: 600;
+}
+
+
+.section-4-text-area {
+  background-color: #13544e;
+}
+
+.section-4-text-area h1 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.section-4-text-area h1 p {
+  color: #91e6b3;
+}
+
+.section-4-secondary-text {
+  color: #fff!important;
+  margin-top: 2rem;
+  font-size: 20px!important;
+}
+
+.section-4-icon img{
+  width: 18px;
+  object-fit: cover;
+}
+
+.section-4-icon p {
+  font-size: 15px!important;
+  color: #fff;
+  font-weight: 400;
+}
+
+.section-4-text-area button {
+  background-color: #fff;
+}
+
+.section-4-text-area button p {
+  color: #13544e;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.section-5-heading {
+  font-size: 35px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.section-5-text {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.section-5-item {
+  background-color: #14a800;
+  color: #fff;
+}
+
+.section-5-items img {
+  width: 15px;
+}
+
+.section-5-item:hover {
+  background-color: #fff;
+  color: #14a800;
+  transition: 0.1s;
+}
+
+.section-5-items h3 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.section-5-items p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.section-6-heading {
+  font-size: 35px;
+  color: black;
+  font-weight: 700;
+}
+
+.section-6-header {
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+}
+
+.section-6-text {
+  color: #555555;
+  font-weight: 600;
+}
+
+.section-6-item img {
+  width: 25px;
+}
+
+.section-6-part-2 {
+  background-color: #14a800;
+}
+
+.section-6-part-2 h2 {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.section-6-part-2-details img {
+  width: 25px;
+}
+
+.section-6-part-2-header {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.section-6-part-2-text {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.person-image img{
+  width: 357px!important;
+  height: 640px!important;
+  bottom: 50%;
+}
+
+.section-7 img {
+  object-fit: contain;
+}
+
+.section-7-text-area {
+  background-color: #1f57c3;
+}
+
+.section-7-text-area h1 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.section-7-text-area h1 p {
+  color: #91e6b3;
+}
+
+.section-7-secondary-text {
+  color: #fff!important;
+  margin-top: 2rem;
+  font-size: 20px!important;
+}
+
+.section-7-icon p {
+  font-size: 15px!important;
+  color: #fff;
+  font-weight: 400;
+}
+
+.section-7-text-area button {
+  background-color: #fff;
+}
+
+.section-7-text-area button p {
+  color: #13544e;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.slider-1 {
+  background-color: #13544e;
+  color: #fff;
+}
+
+.slider-1 h2 {
+  font-size: 25px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.slider-1 h4 {
+  font-size: 25px;
+  font-weight: 700;
+  
+}
+
+.slider-2 {
+  background-color: #bc511b;
+  color: #fff;
+}
+
+.slider-2 h2 {
+  font-size: 25px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.slider-2 h4 {
+  font-size: 25px;
+  font-weight: 700;
+  
+}
+
+
+.slider-3 {
+  background-color: #1f57c3;
+  color: #fff;
+}
+
+.slider-3 h2 {
+  font-size: 25px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.slider-3 h4 {
+  font-size: 25px;
+  font-weight: 700;
+  
+}
+
+.section-9-header {
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.section-9-header:hover {
+  color:  #14a800;
+  transition: 0.1s;
+}
+
+.skill-list p {
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.skill-list p:hover {
+  color:  #14a800;
+  transition: 0.1s;
 }

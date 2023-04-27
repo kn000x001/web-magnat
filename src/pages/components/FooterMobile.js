@@ -26,22 +26,21 @@ return (
             <div className="accordion">
                 {data.map((item, i) => (
                     <div className="item my-2 border-b-2">
-                    <div className="title flex justify-between" onClick={() => toggle(i)}>
-                        <h3 className="text-lg">{item.title}</h3>
-                        <span className="text-md toggler">{selected === i ? "-" : "+"}</span>
+                        <div className="title flex justify-between" onClick={() => toggle(i)}>
+                            <h3 className="text-lg">{item.title}</h3>
+                        </div>
+                        <div className={selected === i ? "show" : "hide"}>
+                            <ul>
+                                {item.info.map((word)=>(
+                                    <li>
+                                        <p>
+                                            <a href="#">{word.text}</a>
+                                        </p>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
                     </div>
-                    <div className={selected === i ? "show" : "hide"}>
-                        <ul>
-                            {item.info.map((word)=>(
-                                <li>
-                                    <p>
-                                        <a href="#">{word.text}</a>
-                                    </p>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                </div>
                 ))}
             </div>
 
@@ -97,6 +96,7 @@ return (
 
  const data = [
      {
+        id:"four",
          title: "For Clients",
          info: [
             { text: "How to hire"},
@@ -123,6 +123,7 @@ return (
          ]
      },
      {
+        id:"three",
          title: "For Talent",
          info: [
             { text: "How to Find Work"},
@@ -135,6 +136,7 @@ return (
          ]
      },
      {
+        id:"two",
          title: "Resources",
         info: [
             { text: "Help & Support"},
@@ -155,6 +157,7 @@ return (
         ]
      },
      {
+        id:"one",
          title: "Company",
         info: [
             { text: "About Us"},

@@ -31,7 +31,7 @@ function HeaderMobile() {
 
 
     return (
-        <header className="border-b-1 border-black p-2 flex lg:hidden">
+        <header className="bg-white lg:me-2 border-b-1 border-black p-2 flex lg:hidden fixed top-0">
 
             <div className="menu-list flex flex-col">
                     <div className="grid grid-cols-10">
@@ -40,15 +40,15 @@ function HeaderMobile() {
                         <div></div>
                         <div></div>
                     </div>
-                    <div className="logo grid col-span-2 sm:col-span-1 pt-2">
+                    <div className="logo grid col-span-2 sm:col-span-1 pt-2 ms-2">
                         <Image src={Logo} alt=""/>
                     </div>
 
-                        <div className="grid col-start-6 col-span-8 grid-cols-10 d-flex justify-end">
+                        <div className="grid col-start-6 col-span-10 grid-cols-10 d-flex justify-end">
                             <div className="bg-gray-100 rounded-full col-span-9 search-container grid grid-cols-10 p-1 lg:p-2">
-                                <div className="grid col-span-7 me-2 border-r-2 border-gray-300">
+                                <div className="grid col-span-10 lg:col-span-7 me-2 lg:border-r-2 border-gray-300">
                                     <from action="search" className="xl:flex xl:justify-start grid grid-cols-5 align-middle py-1">
-                                            <div className="me-2 col-span-1">
+                                            <div className="me-2 col-span-1 mt-1">
                                                 <Image src={Glass} alt=""/>
                                             </div>
                                             <input type="search" placeholder="Search" className="bg-gray-100 border-none col-span-4"/>
@@ -57,12 +57,10 @@ function HeaderMobile() {
                                 <DropDown />
                             </div>
 
-                            <div className="signin-mobile col-start-4 cursor-pointer col-span-2 flex justify-center">
-                                <p>Sign Up</p>
-                            </div>
+
                         </div>
                     
-                        <div className="col-span-8" >
+                        <div className="col-span-10" >
                         <div className={activated ? "display" : "close"}>
                             
                             <div className="flex flex-col">
@@ -127,6 +125,10 @@ function HeaderMobile() {
 
                             <div className="login cursor-pointer col-span-2 inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-50">
                                 <p>Log In</p>
+                            </div>
+
+                            <div className="signin-mobile cursor-pointer col-span-2 inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-50">
+                                <p>Sign Up</p>
                             </div>
                         </div>
                     </div>

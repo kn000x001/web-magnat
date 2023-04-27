@@ -31,7 +31,7 @@ function Header() {
     }
 
     return (
-        <header className="border-b-1 border-black p-2 hidden lg:flex">
+        <header className="bg-white lg:me-2 border-b-1 border-black p-2 hidden lg:flex fixed top-0">
             <div className="grid grid-cols-2">
                 <div className="grid grid-cols-7">
                     <div className="logo grid col-span-1 pt-2">
@@ -131,6 +131,7 @@ function Header() {
 
 const MenuData =[
     {
+        id: 15,
         title: "Find Talent",
         submenu: [
             {
@@ -157,6 +158,7 @@ const MenuData =[
         ]
     },
     {
+        id: 16,
         title: "Find Work",
         submenu: [
             {
@@ -180,6 +182,7 @@ const MenuData =[
         ]
     },
     {
+        id: 17,
         title: "Why Upwork",
         submenu: [
             {

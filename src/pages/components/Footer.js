@@ -11,7 +11,7 @@ import Android from "../../../public/android.svg"
 
 function Footer() {
     return (
-        <footer className="container mx-auto px-20 w-100 hidden md:block bg-green-950 rounded text-white text-sm py-16">
+        <footer className="container mx-auto xl:mx-0 px-20 w-100 hidden md:block bg-green-950 rounded text-white text-sm py-16">
         <div className="flex flex-col">
           <div className="grid grid-cols-4 ">
             <div className="border-b-2 border-white">

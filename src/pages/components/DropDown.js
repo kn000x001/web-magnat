@@ -10,7 +10,7 @@ function classNames(...classes) {
 
 function DropDown() {
     return (
-        <div as="div" className="relative inline-block text-left col-start-8 xl:col-start-8 grid-col-span-1">
+        <div as="div" className="relative hidden lg:inline-block text-left col-start-8 xl:col-start-8 grid-col-span-1">
         <select className="bg-gray-100">
             <option>Projects</option>
             <option>Talent</option>
